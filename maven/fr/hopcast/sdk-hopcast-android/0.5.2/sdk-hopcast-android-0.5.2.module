@@ -1,0 +1,175 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fr.hopcast",
+    "module": "sdk-hopcast-android",
+    "version": "0.5.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-hopcast-android-0.5.2.aar",
+          "url": "sdk-hopcast-android-0.5.2.aar",
+          "size": 391065,
+          "sha512": "c903ae185be9873bd3d80d04fbf61b44f4470da5e53c4096517bd258a0fc8bfa1a8e22d1c63fdbeb3cbf00ee9ed389d3160485a7e0b3b172103f8554a5dd8261",
+          "sha256": "fb934d8b5e9e8b235af6efedab9278cd17836be33d653ef2f75db332aa89c27f",
+          "sha1": "dffacc81e319603b92c7712f92f0403c15dfbecb",
+          "md5": "c9c4c5cff1694e6f2d964477698d6077"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-nearby",
+          "version": {
+            "requires": "18.7.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-bom",
+          "version": {
+            "requires": "4.10.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp"
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-service",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "com.hivemq",
+          "module": "hivemq-mqtt-client",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-http",
+          "version": {
+            "requires": "4.1.99.Final"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-hopcast-android-0.5.2.aar",
+          "url": "sdk-hopcast-android-0.5.2.aar",
+          "size": 391065,
+          "sha512": "c903ae185be9873bd3d80d04fbf61b44f4470da5e53c4096517bd258a0fc8bfa1a8e22d1c63fdbeb3cbf00ee9ed389d3160485a7e0b3b172103f8554a5dd8261",
+          "sha256": "fb934d8b5e9e8b235af6efedab9278cd17836be33d653ef2f75db332aa89c27f",
+          "sha1": "dffacc81e319603b92c7712f92f0403c15dfbecb",
+          "md5": "c9c4c5cff1694e6f2d964477698d6077"
+        }
+      ]
+    }
+  ]
+}

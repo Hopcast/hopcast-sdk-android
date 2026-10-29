@@ -3,11 +3,12 @@
   <groupId>fr.hopcast</groupId>
   <artifactId>sdk-hopcast-android</artifactId>
   <versioning>
-    <latest>0.5.1</latest>
-    <release>0.5.1</release>
+    <latest>0.5.2</latest>
+    <release>0.5.2</release>
     <versions>
       <version>0.5.1</version>
+      <version>0.5.2</version>
     </versions>
-    <lastUpdated>20261014102939</lastUpdated>
+    <lastUpdated>20261029160642</lastUpdated>
   </versioning>
 </metadata>
